@@ -59,4 +59,13 @@ Alpha rarefaction can be plotted using the code given in **rarefaction.sh**. It 
 
 ## TAXONOMIC ANALYSIS (ABUNDANCE AND CLASSIFICATION)
 
-Taxonomic classification is done using a classifier database. 
+Taxonomic classification is done using a classifier database. For human gut-tissue samples, 2 classifiers can be used: 
+
+* SILVA classifier: https://www.arb-silva.de/current-release/QIIME2/2025.7/SSU/full-length/weighted/human-stool
+* GreenGenes classifier: https://library.qiime2.org/data-resources#qiime-2-2024-5-2026-1
+
+The codes for both the classifiers is given in **taxonomy.sh**. Running this requires a high amount of RAM and memory, so it is better to use a system with the specifications required. This will generate a taxonomy.qza file that can be visualized using the code from **visualization.sh**. 
+
+## STACKED BAR PLOTS FOR TAXONOMIC ABUNDANCE
+
+
