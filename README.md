@@ -15,3 +15,17 @@ Create a QIIME2 environment using conda and import the metadata file onto QIIME2
 
 ## DADA2
 
+Demultiplexing is not required if the reads are already demultiplexed, i.e. if the samples and their respective barcode files are already associated in the metadata file or the manifest file. 
+
+Perform DADA2 with the code from **dada2.sh**. The trim-lengths are the number of base pairs to be cut from the start and truncate-lengths are the number of base pairs to be cut from the end. Using the paired-end-demux.qzv file to visualize the sample data, decide the trim-length and truncate-length and change it in the code. 
+
+##FEATURETABLE AND FEATUREDATA SUMMARIES
+
+To analyse the resulting data, make FeatureTable and FeatureData summaries using the code given in **table.sh**. To visualize the QZA files, use the same code in **visualization.sh** to convert them to QZV files. These QZV files can be viewed on QIIME2 viewer. 
+
+##PHYLOGENETIC TREE
+
+To produce a phylogenetic tree from the data, use the code given in **phylogeny.sh**. 
+
+##ALPHA AND BETA DIVERSITY ANALYSIS
+
