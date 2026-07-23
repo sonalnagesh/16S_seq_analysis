@@ -49,5 +49,14 @@ The visualizations (QZV files) of the beta diversity results are also present in
 
 To understand alpha and beta diversity better, refer to the link: https://carpentries-lab.github.io/metagenomics-analysis/08-Diversity-tackled-with-R/index.html
 
+## SHANNON DIVERSITY BOX PLOT
+
+To understand the distribution of Shannon index values in tumor and normal samples, a box plot can be plotted using the Shannon index values, which measures the community richness. The code is given in **shannon.py**.
+
 ## ALPHA RAREFACTION PLOTTING
 
+Alpha rarefaction can be plotted using the code given in **rarefaction.sh**. It is plotted to understand alpha diversity as a function of sampling depth. The maximum depth to be used is to be calculated based on the read lengths of the samples given in the paired-end-demux.qzv file. 
+
+## TAXONOMIC ANALYSIS (ABUNDANCE AND CLASSIFICATION)
+
+Taxonomic classification is done using a classifier database. 
