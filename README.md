@@ -19,13 +19,13 @@ Demultiplexing is not required if the reads are already demultiplexed, i.e. if t
 
 Perform DADA2 with the code from **dada2.sh**. The trim-lengths are the number of base pairs to be cut from the start and truncate-lengths are the number of base pairs to be cut from the end. Using the paired-end-demux.qzv file to visualize the sample data, decide the trim-length and truncate-length and change it in the code. 
 
-##FEATURETABLE AND FEATUREDATA SUMMARIES
+## FEATURETABLE AND FEATUREDATA SUMMARIES
 
 To analyse the resulting data, make FeatureTable and FeatureData summaries using the code given in **table.sh**. To visualize the QZA files, use the same code in **visualization.sh** to convert them to QZV files. These QZV files can be viewed on QIIME2 viewer. 
 
-##PHYLOGENETIC TREE
+## PHYLOGENETIC TREE
 
 To produce a phylogenetic tree from the data, use the code given in **phylogeny.sh**. 
 
-##ALPHA AND BETA DIVERSITY ANALYSIS
+## ALPHA AND BETA DIVERSITY ANALYSIS
 
