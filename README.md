@@ -29,3 +29,25 @@ To produce a phylogenetic tree from the data, use the code given in **phylogeny.
 
 ## ALPHA AND BETA DIVERSITY ANALYSIS
 
+To get the alpha and beta diversity analysis results, run the code given in **alphabeta.sh**. They will be present in the folder core-metrics-results. The plots or graphs generated will be: 
+
+Alpha diversity:
+
+* Shannon’s diversity index (a quantitative measure of community richness)
+* Observed Features (a qualitative measure of community richness)
+* Faith’s Phylogenetic Diversity (a qualitative measure of community richness that incorporates phylogenetic relationships between the features)
+* Evenness (or Pielou’s Evenness; a measure of community evenness)
+
+Beta diversity:
+
+* Jaccard distance (a qualitative measure of community dissimilarity)
+* Bray-Curtis distance (a quantitative measure of community dissimilarity)
+* unweighted UniFrac distance (a qualitative measure of community dissimilarity that incorporates phylogenetic relationships between the features)
+* weighted UniFrac distance (a quantitative measure of community dissimilarity that incorporates phylogenetic relationships between the features)
+
+The visualizations (QZV files) of the beta diversity results are also present in the folder.
+
+To understand alpha and beta diversity better, refer to the link: https://carpentries-lab.github.io/metagenomics-analysis/08-Diversity-tackled-with-R/index.html
+
+## ALPHA RAREFACTION PLOTTING
+
